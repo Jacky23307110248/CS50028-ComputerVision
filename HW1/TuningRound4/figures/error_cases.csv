@@ -1,0 +1,11 @@
+index,true_id,true_name,pred_id,pred_name,confidence
+324,4,Coat,6,Shirt,0.9997916221618652
+3370,2,Pullover,4,Coat,0.9997681379318237
+2856,6,Shirt,0,T-shirt/top,0.999636173248291
+8373,6,Shirt,2,Pullover,0.9995520114898682
+787,1,Trouser,3,Dress,0.9994586706161499
+5806,6,Shirt,0,T-shirt/top,0.9994001984596252
+23,9,Ankle boot,5,Sandal,0.9992693066596985
+2599,0,T-shirt/top,8,Bag,0.9991361498832703
+382,2,Pullover,0,T-shirt/top,0.9983819127082825
+9574,2,Pullover,6,Shirt,0.9983175992965698

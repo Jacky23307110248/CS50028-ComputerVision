@@ -1,0 +1,20 @@
+{
+  "best_epoch": 49,
+  "best_tracked_acc": 0.9692666666666667,
+  "best_tracked_total_loss": 0.15316073596477509,
+  "tracked_metric_source": "train",
+  "model_path": "./artifacts/best_model_full.npy",
+  "history_path": "./artifacts/history_full.csv",
+  "activation": "relu",
+  "seed": 82,
+  "hidden_dim": 256,
+  "batch_size": 64,
+  "lr_max": 0.3,
+  "l2_lambda": 0.0001,
+  "val_ratio": 0.0,
+  "use_validation_split": false,
+  "split_seed": null,
+  "effective_split_seed": 82,
+  "selection_note": "Saved final-epoch weights from full-data training (no validation split).",
+  "saved_at": "2026-04-09T11:41:47"
+}

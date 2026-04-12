@@ -1,0 +1,19 @@
+{
+  "best_epoch": 45,
+  "best_val_acc": 0.9045,
+  "best_val_total_loss": 0.33810311555862427,
+  "model_path": "./artifacts/best_model_val.npy",
+  "history_path": "./artifacts/history_val.csv",
+  "activation": "relu",
+  "seed": 82,
+  "hidden_dim": 256,
+  "batch_size": 64,
+  "lr_max": 0.25,
+  "l2_lambda": 0.0001,
+  "val_ratio": 0.2,
+  "use_validation_split": true,
+  "split_seed": 42,
+  "effective_split_seed": 42,
+  "selection_rule": "maximize val_acc with min_delta, tie-break by lower val_total_loss",
+  "saved_at": "2026-04-09T11:17:49"
+}
