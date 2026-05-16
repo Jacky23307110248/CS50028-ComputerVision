@@ -1,0 +1,34 @@
+# =============================================================================
+# HW2 — 大文件与网盘内容（见 HW2/README_GDrive.md）
+# 仓库根目录：CS50028-ComputerVision；路径均以 HW2/ 为前缀
+# =============================================================================
+
+# --- 数据集（Google Drive）---
+HW2/Oxford-IIIT/
+HW2/evilspirit05/
+
+# --- Task 1：全量训练输出 ---
+HW2/task1_classification/outputs/
+
+# --- Task 3：全量训练输出 ---
+HW2/task3_segmentation/outputs/
+
+# --- Task 2：训练 runs、权重、视频与轨迹 ---
+HW2/task2_detection_tracking/runs/
+HW2/task2_detection_tracking/weights/
+HW2/task2_detection_tracking/yolov8*.pt
+HW2/task2_detection_tracking/detectVideo/input.mp4
+HW2/task2_detection_tracking/detectVideo/output.mp4
+HW2/task2_detection_tracking/detectVideo/track_log.csv
+HW2/task2_detection_tracking/detectVideo/track_run_meta.json
+HW2/task2_detection_tracking/detectVideo/frames_for_report/*.png
+
+# --- Python / 环境 ---
+HW2/**/__pycache__/
+HW2/**/*.py[cod]
+HW2/**/.venv/
+HW2/**/venv/
+HW2/**/.ipynb_checkpoints/
+
+# --- 本地草稿（不入库）---
+HW2/report_old.*

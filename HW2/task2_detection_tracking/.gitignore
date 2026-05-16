@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+runs/
+weights/*.pt
+detectVideo/input.mp4
+detectVideo/output.mp4
+detectVideo/track_log.csv
+detectVideo/frames_for_report/*.png
