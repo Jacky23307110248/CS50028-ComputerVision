@@ -1,0 +1,15 @@
+# HW3 本地工作区：大文件目录（与课程仓库 CS50028-ComputerVision/.gitignore 中 HW3/ 规则一致）
+
+data/
+cache/
+task1/outputs/
+task2/outputs/
+
+# Python / 虚拟环境
+**/__pycache__/
+**/*.py[cod]
+**/.ipynb_checkpoints/
+.venv*/
+.venv-2dgs/
+.venv-ts/
+**/venv/

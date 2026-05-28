@@ -1,0 +1,4 @@
+# threestudio 主依赖见 repos/threestudio/requirements.txt（setup_dsw_env.py 会 pip 安装）
+# 此处仅 task1 wrapper 额外包
+swanlab>=0.5.0
+PyYAML>=6.0

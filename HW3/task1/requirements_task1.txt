@@ -1,0 +1,3 @@
+# task1 wrapper（DSW 上请用 setup_dsw_env.py 创建专用 venv，勿直接 pip 到系统环境）
+swanlab>=0.5.0
+PyYAML>=6.0

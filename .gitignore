@@ -32,3 +32,24 @@ HW2/**/.ipynb_checkpoints/
 
 # --- 本地草稿（不入库）---
 HW2/report_old.*
+
+# =============================================================================
+# HW3 — 大文件（见 HW3/README.md、HW3/README_GDrive.md）
+# =============================================================================
+
+# --- 数据集与 HF 权重缓存 ---
+HW3/data/
+HW3/cache/
+
+# --- 训练输出 ---
+HW3/task1/outputs/
+HW3/task2/outputs/
+
+# --- Python / 虚拟环境 ---
+HW3/**/__pycache__/
+HW3/**/*.py[cod]
+HW3/**/.ipynb_checkpoints/
+HW3/.venv*/
+HW3/.venv-2dgs/
+HW3/.venv-ts/
+HW3/**/venv/

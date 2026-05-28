@@ -1,0 +1,41 @@
+# Task1 default hyperparameters (override via CLI flags where supported)
+
+swanlab:
+  project: CVHW3
+  workspace: "23307110248JackyH"
+
+background:
+  scene: garden
+  iterations: 30000
+  save_iterations: [7000, 30000]
+
+object_a:
+  fps: 2
+  max_frames: 120
+  iterations: 30000
+
+object_b:
+  config: configs/dreamfusion-sd.yaml
+  name: object_b
+  tag: dreamfusion
+  trainer_max_steps: 10000
+  sd_model: stable-diffusion-2-1-base
+
+object_c:
+  image_name: rgba.png
+  coarse:
+    config: configs/magic123-coarse-sd.yaml
+    name: object_c
+    tag: coarse
+    trainer_max_steps: 2000
+  refine:
+    config: configs/magic123-refine-sd.yaml
+    name: object_c
+    tag: refine
+    trainer_max_steps: 2000
+  sd15_model: stable-diffusion-v1-5
+  zero123_model: zero123-diffusers
+
+export:
+  exporter_type: mesh-exporter
+  context_type: cuda
